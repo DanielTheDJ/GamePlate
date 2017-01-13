@@ -20,7 +20,7 @@
 
         { "id": "healthLevel", "message": "Здраве"},
 
-        { "id": "kitMenuTitle", "message": "Избор на "},
+        { "id": "kitMenuTitle", "message": "Избор на оръжия"},
 
         { "id": "second", "message": "{0} секунда"},
 
