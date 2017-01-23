@@ -1,173 +1,93 @@
 {
-
   "language": "bg",
-
   "data": [
-
     { "type": "ui",
-
       "messages": [
-
         { "id": "welcome", "message": "Добре дошли в GamePlate!"},
-
         { "id": "teamJoin", "message": "Вие влезнахтие в {0}."},
-
         { "id": "potionEffects", "message": "Ефекти от отвари"},
-
         { "id": "noPotionEffects", "message": "Няма ефекти от отвари"},
-
         { "id": "hungerLevel", "message": "Ниво на глад"},
-
         { "id": "healthLevel", "message": "Здраве"},
-
         { "id": "kitMenuTitle", "message": "Избор на оръжия"},
-
         { "id": "second", "message": "{0} секунда"},
-
         { "id": "seconds", "message": "{0} секунди"},
-
         { "id": "cycleTimer", "message": "Телепортиране до {0} след {1}"},
-
         { "id": "cycledTo", "message": "Телепортирани до {0}"},
-
         { "id": "startingTimer", "message": "Играта започва след {0}"},
-
         { "id": "refreshed", "message": "Презаредени са хранилищата и файлът със картите"},
-
         { "id": "objectivePrefix", "message": "Цел"},
-
         { "id": "rotationHead", "message": "[ВЪРТЕНЕ]"},
-
         { "id": "teamChat", "message": "{0}[ОТБОРЕН ЧАТ] {1}: {2}"},
-
         { "id": "timeRemaining", "message": "Оставащо време {0}"},
-
         { "id": "nextMapSet", "message": "Следващата карта беше зададена на {0}"},
-
         { "id": "currentlySpectating", "message": "В момента наблюдавате."},
-
         { "id": "dead", "message": "Умрял"},
-
         { "id": "respawnTimer", "message": "Съживявате се след {0}"},
-
         { "id": "teamPicker", "message": "Изберете отбор"},
-
         { "id": "teamPickerAutoJoin", "message": "Влезте в отбор"},
-
         { "id": "teamPickerAutoJoinDesc", "message": "Автоматично се избира отборът с най-малко играчи."},
-
         { "id": "teamPickerAutoJoinLeave", "message": "Влезте в отбора на Наблюдателите."},
-
         { "id": "teamPickerItem", "message": "Избиране на отбори"},
-
         { "id": "tabHeader", "message": "Играе с {0}"},
-
         { "id": "tabFooter", "message": "{0} - {1}"}
-
       ]
-
     },
-
-
-
+    
     { "type": "game",
-
       "messages": [
-
         { "id": "notYourObjective", "message": "Не можете да изпълните целта на другия отбор!"},
-
         { "id": "objectiveAlreadyComplete", "message": "Тази цел вече е изпълнена!"},
-
         { "id": "capturableTouched", "message": "{0} взе {1} за {2}!"},
-
         { "id": "capturableCompleted", "message": "{0} постави {1} за {2}!"},
-
         { "id": "goalScore", "message": "{0} спечели {1} точки за {2}!"},
-
         { "id": "destroyableBreak", "message": "{0} нарани {1} за {2}!"},
-
         { "id": "destroyableComplete", "message": "{0} счупи {1} за {2}!"}
-
       ]
-
     },
 
 
 
     { "type": "kill",
-
       "messages": [
-
         { "id": "message", "message": "Вие убихте {0}"}
-
       ]
-
     },
 
 
 
     { "type": "misc",
-
       "messages": [
-
         { "id": "and", "message": "и"}
-
       ]
-
     },
 
 
 
     { "type": "error",
-
       "messages": [
-
         { "id": "json", "message": "Появи се грешка докато се зареждаше map.json: {0}"},
-
         { "id": "buildHeight", "message": "Вие достигнахте максималния брой блокове ({0} блока)"},
-
         { "id": "teamFull", "message": "Съжеляваме, {0} е пълен."},
-
         { "id": "teamOverflowed", "message": "Съжеляваме, {0} е абсолютно пълен."},
-
         { "id": "blockedCraft", "message": "Правенето на {0} не е позволено!" },
-
         { "id": "error.blockedPlace", "message": "Поставянето на {0} не е позволено!" },
-
         { "id": "inventoryNotViewable", "message": "Инвентара на играча не може да бъде видян!"},
-
         { "id": "unknownError", "message": "Появи се неидентифицирана грешка. Моля вижте конзолата за информация."},
-
         { "id": "noPermission", "message": "Нямате право."},
-
         { "id": "numberString", "message": "Очакваше се номер, но получихме дума."},
-
         { "id": "commandPlayerOnly", "message": "Тази команда не може да бъде изпълнена от конзолата."},
-
         { "id": "noTeamFound", "message": "Не беше намерен такъв отбор."},
-
         { "id": "noJoinTeam", "message": "Нямате право да влезнете в този отбор в момента."},
-
         { "id": "unableToCycleMidMatch", "message": "Не могат да се сменят карти, докато се играе."},
-
         { "id": "matchAlreadyStarted", "message": "Играта вече започна."},
-
         { "id": "matchNotStarted", "message": "Играта все още не е започнала."},
-
         { "id": "matchCycling", "message": "Играта в момента се играе."},
-
         { "id": "joinSameTeam", "message": "Вие вече сте в този отбор!"},
-
         { "id": "noMessage", "message": "Моля включете съобщение!"},
-
         { "id": "mapNotFound", "message": "Картата не беше намерена."},
-
         { "id": "alreadyOnTeam", "message": "Вие вече сте в отбор!"}
-
       ]
-
     }
-
   ] 
-
 }
